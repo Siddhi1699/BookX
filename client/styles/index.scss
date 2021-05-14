@@ -1,0 +1,32 @@
+body,.main{
+    background-color: black !important;
+  }
+  .tile.is-child.box,.is-fixed-size{
+    min-height: 150px;
+    // min-width: 200px;
+  }
+  $box-background-color : #131313; 
+  $box-color:white;
+  $title-color: white; 
+  $subtitle-color: white;
+  
+  a{
+    border: transparent !important;
+    color: inherit !important;
+  }
+
+  .List {
+    border: 1px solid #d9dddd;
+  }
+  
+  .ListItemEven,
+  .ListItemOdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ListItemEven {
+    background-color: #f8f8f0;
+  }
+@import '../node_modules/bulma/bulma.sass'
